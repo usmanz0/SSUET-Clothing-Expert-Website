@@ -36,6 +36,23 @@ h2 {
   font-weight: 200;
 }
 
+.hero-text button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+
+  padding: 12px 24px;
+  margin: 18px 0 0 0;
+
+  color: white;
+  background: rgb(18, 53, 45);
+
+
+  font-size: 18px;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
 .hero-image img {
   width: 100%;
   max-height: 870px;

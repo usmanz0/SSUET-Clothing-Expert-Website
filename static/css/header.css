@@ -3,19 +3,74 @@ header {
   justify-content: space-between;
   align-items: center;
   
-  padding: 12px 64px;
+  padding: 24px 64px;
 
   background-color: rgba(25, 25, 25, 1);
   
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
+/* Left Section */
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Middle Section */
 
 .middle-section {
   flex: 1;
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
+
+  max-width: 453px;
+  margin: 0px 40px 0px 40px;
+  gap: 37px;
 }
 
-.left-section {
-  
+.middle-section a {
+  text-decoration: none;
+
+  color: white;
+
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+/* Right section */
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.right-section button {
+  border: none;
+  border-radius: 8px;
+
+  padding: 6px 20px;
+
+  color: white;
+
+  font-size: 18px;
+  font-weight: 300;
+
+  cursor: pointer;
+}
+
+.register-button {
+  background: rgba(49, 49, 49, 1);
+}
+
+.login-button {
+  background: rgba(24, 69, 59, 1);
 }

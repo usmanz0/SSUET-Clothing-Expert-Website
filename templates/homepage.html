@@ -23,7 +23,7 @@
 
     <nav class="middle-section">
       <a href="{{ url_for('homepage') }}" > Home </a>
-      <a href="#about"> About </a>
+      <a href="#about"> About </a></li>
       <a href="{{ url_for('services') }}" > Services </a>
       <a href="{{ url_for('gallery') }}" > Gallery </a>
       <a href="{{ url_for('contact_us') }}" > Contact </a>
@@ -31,13 +31,34 @@
 
     <nav class="right-section">
       <a href="{{ url_for('register') }}">
-        <button> Register </button>
+        <button class="register-button"> Register </button>
       </a>
       <a href="{{ url_for('login')}}">
-        <button > Login </button>
+        <button class="login-button" > Login </button>
       </a>
     </nav>
   </header>
 
+  <main>
+    <section class="hero-section">
+      <div class="hero-text-container">
+        <div class="hero-text">
+          <h1>Clothing Experts</h1>
+          <h2>Built to last</h2>
+          <p>
+            Discover a world where timeless Pakistani fashion blends seamlessly with contemporary designs. At Shopistan, we bring you premium-quality apparel that celebrates culture, comfort, and individuality.
+          </p>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/hero.jpeg') }}" alt="logo">
+      </div>
+    </section>
+
+    <section class="about">
+
+    </section>
+  </main>
 </body>
 </html>

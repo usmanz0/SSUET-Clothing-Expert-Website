@@ -11,3 +11,7 @@ body {
 button {
   font-family: inter;
 }
+
+h1,h2,p {
+  margin: 0;
+}

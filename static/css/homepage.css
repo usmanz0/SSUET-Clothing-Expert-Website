@@ -11,7 +11,7 @@
   padding: 0 178px 0 64px;
 }
 
-h1 {
+h1,h3 {
   font-size: 48px;
   font-weight: 800;
 }
@@ -59,3 +59,24 @@ h2 {
 
   object-fit: cover;
 }
+
+/* About Section */
+
+.about-section {
+  margin: 64px 64px 64px 64px;
+}
+
+.about-info1-container,
+.about-info2-container {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.about-info1-container img,
+.about-info2-container img {
+  min-width: 574.1px;
+  min-height: 443px;
+  object-fit: cover;
+}
+
+

@@ -14,7 +14,7 @@ h1 {
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 32px;
-  align-self: ;
+  
 }
 
 .contact-us-container {
@@ -53,9 +53,9 @@ h1 {
 .contact-us-container button {
   background: rgba(24, 69, 59, 1);
   color: white;
-
-  width: 124px;
-  height: 38px;
+  
+  font-size: 18px;
+  font-weight: 300;
 
   padding: 8px 32px 8px 32px;
   margin: 8px 0;
@@ -66,4 +66,32 @@ h1 {
 
 input:not(:placeholder-shown) {
   color: rgb(255, 255, 255);  
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: rgba(25, 25, 25, 1);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0 64px 32px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-content hr {
+  width: 100%;
+  border: 0.5px solid #555;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  color: #bbb;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
 }

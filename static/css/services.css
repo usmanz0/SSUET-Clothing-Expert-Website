@@ -43,6 +43,30 @@ h2 {
   margin: 0 0 16px 0;
 }
 
+/* FOOTER */
+
+.footer {
+  background-color: rgba(25, 25, 25, 1);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0 64px 32px;
+
+}
+
+.footer-content hr {
+  width: 100%;
+  border: 0.5px solid #555;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  color: #bbb;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
 
 
 

@@ -1,1 +1,53 @@
-<p>hello</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}" >
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <title>Login</title>
+</head>
+<body>
+
+  <header>
+    <div class="left-section">
+      <img src="{{ url_for('static', filename='images/Shopistanlogo.png') }}" alt="logo" >
+    </div>
+
+    <nav class="middle-section">
+      <a href="{{ url_for('homepage') }}" > Home </a>
+      <a href="{{ url_for('homepage') }}" > About </a></li>
+      <a href="{{ url_for('services') }}" > Services </a>
+      <a href="{{ url_for('gallery') }}" > Gallery </a>
+      <a href="{{ url_for('contact_us') }}" > Contact </a>
+    </nav>
+
+    <nav class="right-section">
+      <a href="{{ url_for('register') }}">
+        <button class="register-button"> Register </button>
+      </a>
+      <a href="{{ url_for('login')}}">
+        <button class="login-button" > Login </button>
+      </a>
+    </nav>
+  </header>
+
+  <section class="login-section">
+    <h1>Login to your Account</h1>
+    <div class="login-info-container">
+      <input type="text" placeholder="Email Address">
+      <input type="text" placeholder="Password">
+      <button>Login</button>
+      <p>Don't have an account? <span>Register Now</span></p>
+    </div>
+  </section>
+  
+</body>
+</html>

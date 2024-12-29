@@ -1,5 +1,8 @@
 .services {
-  margin: 64px 64px;
+  margin: auto;
+  max-width: 1224px;
+  width: 90%;
+  padding: 64px 0;
 }
 
 .services-grid {
@@ -43,30 +46,4 @@ h2 {
 
 
 
-/* FOOTER */
 
-.footer {
-  background-color: rgba(25, 25, 25, 1);
-  height: 200px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 0 64px 32px;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-.footer-content hr {
-  width: 100%;
-  border: 0.5px solid #555;
-  margin-bottom: 15px;
-}
-
-.footer-content p {
-  color: #bbb;
-  font-size: 14px;
-  margin: 0;
-  text-align: center;
-}

@@ -67,7 +67,10 @@ h2 {
 }
 
 .about-section {
-  margin: 64px;
+  margin: auto;
+  max-width: 1224px;
+  width: 90%;
+  padding: 64px 0;
 }
 
 .about-info-container {

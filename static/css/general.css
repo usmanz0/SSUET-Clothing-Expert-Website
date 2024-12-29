@@ -10,6 +10,9 @@ body {
   
   background-color: rgba(16, 16, 16, 1);
   color: white;
+
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 button {
@@ -18,4 +21,36 @@ button {
 
 h1,h2,p {
   margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: rgba(25, 25, 25, 1);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0 64px 32px;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footer-content hr {
+  width: 100%;
+  border: 0.5px solid #555;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  color: #bbb;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
 }

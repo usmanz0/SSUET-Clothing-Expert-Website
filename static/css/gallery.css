@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-section {
+  max-width: 1224px;
+  width: 90%;
+
+  margin: auto;
+  padding: 64px 0;
+}
+
+.gallery {
+  display: flex;
+  gap: 32px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}

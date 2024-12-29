@@ -29,6 +29,7 @@ header {
   display: flex;
   
   align-items: center;
+  justify-content: center;
 
   max-width: 453px;
   margin: 0px 40px 0px 40px;

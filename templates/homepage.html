@@ -60,11 +60,13 @@
       </div>
     </section>
 
-    <section class="about-section">
+    <section id="about" class="about-section">
       <h3>About us</h3>
-      <div class="about-info1-container">
+      <div class="about-info-container">
+
         <img src="{{ url_for('static', filename='images/image1.jpeg') }}">
-        <div class="about-div1-text">
+        
+        <div class="about-info-text-container">
           <h4>Redefining Fashion</h4>
           <p>
             At Shopistan, we aim to create a bridge between tradition and modernity. Each piece is carefully crafted to represent the richness of Pakistani heritage while keeping up with global trends.
@@ -75,9 +77,8 @@
         </div>
       </div>
 
-      <div class="about-info2-container">
-        <img src="{{ url_for('static', filename='images/image1.jpeg') }}">
-        <div class="about-div1-text">
+      <div class="about-info-container">
+        <div class="about-info-text-container">
           <h5>Redefining Fashion</h5>
           <p>
             At Shopistan, we aim to create a bridge between tradition and modernity. Each piece is carefully crafted to represent the richness of Pakistani heritage while keeping up with global trends.
@@ -86,8 +87,19 @@
             We believe every outfit tells a story. That’s why our collections are designed to help you express yourself, blending elegance and authenticity in every stitch.
           </p>
         </div>
+        
+        <img src="{{ url_for('static', filename='images/image2.jpeg') }}">
+        
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <hr />
+        <p>&copy; 2024, All Rights Reserved by YourWebsiteName</p>
+      </div>
+    </footer>
+    
   </main>
 </body>
 </html>

@@ -68,7 +68,6 @@ h2 {
 
 .about-section {
   margin: 64px;
-  
 }
 
 .about-info-container {
@@ -111,7 +110,7 @@ h4, h5 {
 
 .footer {
   background-color: rgba(25, 25, 25, 1);
-  height: 260px;
+  height: 200px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
